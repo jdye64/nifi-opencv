@@ -8,7 +8,11 @@ using.
 
 To build nifi-opencv simply run '''mvn clean install''' from the project root directory. Once the build has completed
 you can copy the /nifi-opencv-nar/target/nifi-opencv-nar-1.0-SNAPSHOT.nar to your NIFI_HOME/lib directory and restart.
- Upon NiFi restart a new processor named "ObjectDetectionProcessor" will be present for your use.
+Upon NiFi restart a new processor named "ObjectDetectionProcessor" will be present for your use.
+ 
+## Detect Faces and Eyes Screenshot
+This flow can be found in gitresources/ObjectDetection-FacialRecognition-V5.xml:  
+![Detect Faces and Eyes](https://github.com/jdye64/nifi-opencv/gitresources/ObjectDetection.png "ObjectDetectionProcessor")
  
 ## ObjectDetectionProcessor JSON Format
 The processor works by detecting a parent image (a face for example) and then detecting its children images (eyes within a face for example).
