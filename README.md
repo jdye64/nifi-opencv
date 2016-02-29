@@ -12,7 +12,7 @@ Upon NiFi restart a new processor named "ObjectDetectionProcessor" will be prese
  
 ## Detect Faces and Eyes Screenshot
 This flow can be found in gitresources/ObjectDetection-FacialRecognition-V5.xml:  
-![Detect Faces and Eyes](https://github.com/jdye64/nifi-opencv/gitresources/ObjectDetection.png "ObjectDetectionProcessor")
+![Detect Faces and Eyes](https://github.com/jdye64/nifi-opencv/blob/master/gitresources/ObjectDetection.png "ObjectDetectionProcessor")
  
 ## ObjectDetectionProcessor JSON Format
 The processor works by detecting a parent image (a face for example) and then detecting its children images (eyes within a face for example).
