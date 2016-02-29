@@ -6,7 +6,7 @@ you must first copy the native binding for your OS from lib/native/osx/libopencv
 to your JAVA_HOME/jre/lib directory. Ensure that this is the same instance of Java that your nifi instance will be 
 using.
 
-To build nifi-opencv simply run '''mvn clean install''' from the project root directory. Once the build has completed
+To build nifi-opencv simply run ```mvn clean install``` from the project root directory. Once the build has completed
 you can copy the /nifi-opencv-nar/target/nifi-opencv-nar-1.0-SNAPSHOT.nar to your NIFI_HOME/lib directory and restart.
 Upon NiFi restart a new processor named "ObjectDetectionProcessor" will be present for your use.
  
